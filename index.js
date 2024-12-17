@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors())    
 
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://fitnessapi-hi49.onrender.com'],
+    origin: ['http://localhost:3000'],
     credential: true,
     optionsSuccessStatus: 200
 }
