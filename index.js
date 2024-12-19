@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors())    
 
 const corsOptions = {
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'https://fitness-app-client-taupe-ten.vercel.app/'],
     credential: true,
     optionsSuccessStatus: 200
 }
